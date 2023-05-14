@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Blind</string>
+    <string name="no_data_please_add_data">데이터가 없습니다.\n데이터를 추가해주세요.</string>
 </resources>
