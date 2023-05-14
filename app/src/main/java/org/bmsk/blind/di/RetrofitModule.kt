@@ -7,6 +7,7 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
+import org.bmsk.blind.di.PrivateConstant.BASE_URL
 import org.bmsk.blind.util.DateUtil
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
@@ -16,7 +17,6 @@ import javax.inject.Singleton
 const val CONNECT_TIME = 5L
 const val READ_TIME = 5L
 const val WRITE_TIME = 5L
-const val BASE_URL = "http://192.168.31.16:3030/api/v1/fastcampus/chapter8"
 
 @Module
 @InstallIn(SingletonComponent::class)
